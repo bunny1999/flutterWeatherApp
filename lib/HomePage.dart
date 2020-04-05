@@ -280,6 +280,7 @@ class _HomePageState extends State<HomePage> {
                           ],
                         ),
                         SizedBox(height:5.0),
+                        //THERE WAS A MISTAKE(long <-> lati)
                         Row(
                           children: <Widget>[
                             Text("Longitude :",style:TextStyle(fontWeight: FontWeight.w200,)),
