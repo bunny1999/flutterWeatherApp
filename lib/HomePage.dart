@@ -283,14 +283,14 @@ class _HomePageState extends State<HomePage> {
                         Row(
                           children: <Widget>[
                             Text("Longitude :",style:TextStyle(fontWeight: FontWeight.w200,)),
-                            Text(data["coord"]["lon"].toString()),
+                            Text(data["coord"]["lat"].toString()),
                           ],
                         ),
                         SizedBox(height:5.0),
                         Row(
                           children: <Widget>[
                             Text("Latitude    :",style:TextStyle(fontWeight: FontWeight.w200,)),
-                            Text(data["coord"]["lat"].toString()),
+                            Text(data["coord"]["lon"].toString()),
                           ],
                         ),
                         SizedBox(height:5.0),
